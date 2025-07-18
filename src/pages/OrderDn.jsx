@@ -3,6 +3,10 @@ import { useNavigate } from 'react-router-dom';
 import './order.css';
 import { CartContext } from './Cartcontext';
 
+import dotenv from 'dotenv';
+dotenv.config();
+
+
 const OrderDn = () => {
   const navigate = useNavigate();
   const [orderNumber] = useState(() => Math.floor(Math.random() * 199) + 1);

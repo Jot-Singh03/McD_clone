@@ -27,7 +27,7 @@ const OrderDn = () => {
       createdAt: new Date().toISOString()
     };
 
-    fetch('http://localhost:5000/api/order/confirm', {
+    fetch(`${import.meta.env.VITE_API_BASE_URL}/api/order/confirm`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(orderData)

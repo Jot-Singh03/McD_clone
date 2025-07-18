@@ -1,0 +1,31 @@
+.header-logo-od {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.header-logo-od img {
+  height: 100px;
+}
+
+.odr{
+    text-align: center;
+    margin-top: 10px;
+    font-size: large;
+}
+.num {
+  height: 250px;              
+  width: 300px;              
+  display: flex;
+  flex-direction: column;    
+  justify-content: center;   
+  align-items: center;       
+  border: .1px solid #ebebebc0;  
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;         
+}
+.num span{
+    font-size: larger;
+}

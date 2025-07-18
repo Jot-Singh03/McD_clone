@@ -1,0 +1,41 @@
+.header-logo-s {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.header-logo-s img {
+  height: 100px;
+}
+.text2{
+    text-align: center;
+    margin-top: 10px;
+}
+.Ts{
+    height: 250px;
+    width: 200px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    background-image: url('/Pc.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.Pc{ 
+    height: 250px;
+    width: 200px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    background-image: url('/Ts.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    
+}
+.pcs{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;  
+    align-items: center;      
+    gap: 2rem;                
+}

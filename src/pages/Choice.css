@@ -1,0 +1,41 @@
+.header-logo-ch {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.header-logo-ch img {
+  height: 100px;
+}
+.text{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ch{
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;  
+    align-items: center;      
+    gap: 2rem;                
+}
+
+.ei{
+    height: 250px;
+    width: 200px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    background-image: url('/dine2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ta{ 
+    height: 250px;
+    width: 200px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    background-image: url('/Take.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
